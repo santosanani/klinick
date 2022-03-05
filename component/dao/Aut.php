@@ -7,7 +7,7 @@ include "../../commande/Connection.php";
 use command\Connection;
 use model\Auth;
 
-class AutDao
+class Aut
 {
     private \PDO $conn;
     private string $identification;
