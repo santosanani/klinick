@@ -8,7 +8,7 @@ class User
 {
     public function __construct(private string $lastName, private string $firstName, private string $email,
                                 private string $password, private int $role, private string $genre,
-                                private Date $dateNaiss, private int $service) {}
+                                private Date $dateBirth, private int $service) {}
 
     /**
      * @return string
@@ -106,6 +106,37 @@ class User
         $this->genre = $genre;
     }
 
+    /**
+     * @return Date
+     */
+    public function getDateBirth(): Date
+    {
+        return $this->dateBirth;
+    }
+
+    /**
+     * @param Date $dateBirth
+     */
+    public function setDateBirth(Date $dateBirth): void
+    {
+        $this->dateBirth = $dateBirth;
+    }
+
+    /**
+     * @return int
+     */
+    public function getService(): int
+    {
+        return $this->service;
+    }
+
+    /**
+     * @param int $service
+     */
+    public function setService(int $service): void
+    {
+        $this->service = $service;
+    }
 
 
 

@@ -1,0 +1,18 @@
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+@media (max-width: 800px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .w-45 {
+        width: 100%;
+    }
+}

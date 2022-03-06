@@ -2,7 +2,7 @@
 
 namespace dao;
 
-include "../../commande/Connection.php";
+include "Connection.php";
 
 use command\Connection;
 use model\Auth;
