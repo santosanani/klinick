@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire inscrit patient </title>
+</head>
+<body>
+    <form method="post" action="traitement.php">  
+        
+       <div>
+        <label for="nom" > Entre votre nom</label>
+        <input type="text" id="nom" placeholder="" name="nom">
+
+       </div>
+                 <div>
+                    <label for="prenom">Entre votre prnom</label>
+                    <input type="text" id="prenom" name="prenom">
+                
+                </div>
+                <div>
+                    <label for="Naissance">Entre Votre Date de Naissance</label>
+                    <input type="date" id="Naissance" name="naissance">
+
+                </div>
+                <div>
+                    <label for="sexe">Votre Sexe</label>
+                    <input type="checkbox"> Femme<br>
+                    <input type="checkbox">homme<br>
+                </div>
+
+                    <div>
+                        <label for="email"> Votre email</label><br>
+                        <input type="email" id="email" name="email"><br>
+                        
+                    </div>
+                   <div>
+                    <label for="image"> Votre image</label>
+                    <input type="file" >
+                   </div>
+                        
+                    <div>
+                        <label for="number">Votre Numero de Telephone</label>
+                        <input type="number" name="telephone">
+                    </div>
+
+                        <div>
+                            <label for="CNDI"> Votre Carte National D'identité</label>
+                            <input type="checkbox"> <br>
+                        
+                        </div>
+
+                        <button type="submit">Enregistré</button>
+    </form>
+    
+</body>
+</html>
